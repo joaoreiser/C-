@@ -8,13 +8,13 @@ using std::vector;
 
 int main()
 {
-	//conversao explicita
+	//explicit conversion
 	int total_amount{100};
 	int total_number{8};
 	double average{0.0};
 	
 	average = total_amount / total_number;
-	//double = int / int; --> truncado
+	//double = int / int; --> truncated
 	cout << "Average: " << average << endl;
 	
 	average = static_cast<double>(total_amount) / total_number;
@@ -22,7 +22,7 @@ int main()
 	cout << "Average Converted: " << average << endl;
 	
 	
-	//cria e inicializa com 0
+	//create and initialize as 0
 	int total{};
 	int num1{}, num2{}, num3{};
 	const int count{3};

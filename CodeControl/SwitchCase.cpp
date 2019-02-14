@@ -10,7 +10,7 @@ int main()
 {
 	//switch - case
 	int state{};
-	cout << "Insira um valor: ";
+	cout << "Insert a number: ";
 	cin >> state;
 	
 	switch(state){
@@ -28,7 +28,7 @@ int main()
 	}
 	
 	char state_char{};
-	cout << "Insira uma letra: ";
+	cout << "Insert a letter: ";
 	cin >> state_char;
 	
 	switch(state_char){
@@ -44,10 +44,6 @@ int main()
 		default:
 			cout << "Default" << endl;
 	}
-	
-	///////////////USO DE ENUMERADORES//////////////////
-	
-	
 
 	return 0;
 }

@@ -12,7 +12,7 @@ int main()
 		
 	my_enum_colors colors{red};
 		
-	///////////////USO DE ENUMERADORES//////////////////
+	///////////////USE OF ENUMERATORS//////////////////
 		
 	switch(colors){
 		case red:

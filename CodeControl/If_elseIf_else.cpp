@@ -8,18 +8,18 @@ using std::vector;
 
 int main()
 {
-	cout << "Insira um numero: ";
-	int numero{0};
-	cin >> numero;
+	cout << "Insert a number: ";
+	int number{0};
+	cin >> number;
 	
-	if(numero <= 10){
-		cout << "Numero menor/igual a 10" << endl;
+	if(number <= 10){
+		cout << "Number is smaller/equal to 10" << endl;
 	}
-	else if(numero <= 50){
-		cout << "Numero menor/igual a 50" << endl;
+	else if(number <= 50){
+		cout << "Number is smaller/equal to 50" << endl;
 	}
 	else{
-		cout << "Numero maior que 50" << endl;
+		cout << "Number is bigger then 50" << endl;
 	}
 
 	return 0;

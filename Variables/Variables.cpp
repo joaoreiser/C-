@@ -7,27 +7,27 @@ using std::cin;
 
 int main()
 {
-	//dois modos de inicialização de valores
-	//o primeiro modo {} previne contra overflow
-	int num_inteiro{10}; 
-	int numero_inteiro = 10;
+	//two modes of variables initialization
+	//first mode {} provides overflow checking
+	int num_integer{10}; 
+	int number_integer = 10;
 	
-	long numero_longo{100000000};
+	long number_long{100000000};
 	
-	long long numero_muito_longo{10000000000000};
+	long long number_very_long{10000000000000};
 	
-	float numero_flutuante{3.14};
+	float number_float{3.14};
 	
-	double numero_flutuante_preciso{3.141516};
+	double number_float_precision{3.141516};
 	
-	long double numero_flutuante_muito_preciso{0.0000000000001};
+	long double number_float_high_precision{0.0000000000001};
 	
-	bool estado{true};
+	bool status{true};
 	
-	cout << num_inteiro << endl << numero_inteiro << endl;
-	cout << numero_longo << endl << numero_muito_longo << endl;
-	cout << numero_flutuante << endl << numero_flutuante_preciso << endl << numero_flutuante_muito_preciso << endl;	
-	cout << estado << endl;
+	cout << num_integer << endl << number_integer << endl;
+	cout << number_long << endl << number_very_long << endl;
+	cout << number_float << endl << number_float_precision << endl << number_float_high_precision << endl;	
+	cout << status << endl;
 	
 	cout << "char: " << CHAR_MIN << ", size: " << sizeof(char) << endl;
 	cout << "short: " << SHRT_MIN << ", size: " << sizeof(short) << endl;
